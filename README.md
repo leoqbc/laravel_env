@@ -6,7 +6,7 @@ version: "3"
 services:
   web:
     container_name: nginx_php
-    image: webdevops/php-nginx-dev:7.3
+    image: webdevops/php-nginx-dev:7.4
     working_dir: /app
     ports:
       - "80:80"
